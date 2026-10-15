@@ -9,7 +9,11 @@
 Kira helps you record your spending by chat, check your financial health, and plan ahead, all in
 Indonesian.
 
-- **Kira for iPhone**: a SwiftUI app.
-- **Kira API**: the service behind the app, built with Bun, Hono and PostgreSQL.
+| Repository | What it is | Built with |
+| --- | --- | --- |
+| [kira-mobile-ios](https://github.com/Kira-iOS-Project/kira-mobile-ios) | The iPhone app | Swift 6, SwiftUI, a client generated from the API's OpenAPI spec |
+| [kira-backend](https://github.com/Kira-iOS-Project/kira-backend) | The Kira API | Bun, Hono, Drizzle, PostgreSQL 18 |
 
-Kira is in development, and its repositories are private for now.
+Each repository's README describes its architecture, data flow and design decisions.
+
+Kira is in development: the foundation is in place, and the screens are being built.
